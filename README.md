@@ -4,8 +4,6 @@
 
 This project explores the inner workings of DSPy optimizers by evaluating their impact on a structured reasoning task: solving single-move chess puzzles. While DSPy provides powerful abstractions that often make deep knowledge of its internals unnecessary, this project aims to peek behind the curtain and understand how different optimization strategies algorithmically improve Large Language Model (LLM) performance.
 
-We use DSPy's core concepts – Signatures and Modules – analogous to high-level programming constructs, and view DSPy Optimizers as "compilers" that translate these high-level specifications into effective prompts and configurations for specific LLMs. The goal is to provide clarity on the mechanisms DSPy employs to enhance LLM capabilities.
-
 ## Benchmark Task: Why Chess Puzzles?
 
 Chess puzzles provide a consistent and structured benchmark for this investigation:

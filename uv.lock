@@ -5,8 +5,10 @@ resolution-markers = [
     "python_full_version < '3.11' and platform_system == 'Windows'",
     "python_full_version == '3.11.*' and platform_system != 'Windows'",
     "python_full_version == '3.11.*' and platform_system == 'Windows'",
-    "python_full_version >= '3.12' and platform_system != 'Windows'",
-    "python_full_version >= '3.12' and platform_system == 'Windows'",
+    "python_full_version == '3.12.*' and platform_system != 'Windows'",
+    "python_full_version >= '3.13' and platform_system != 'Windows'",
+    "python_full_version == '3.12.*' and platform_system == 'Windows'",
+    "python_full_version >= '3.13' and platform_system == 'Windows'",
 ]
 
 [[package]]
